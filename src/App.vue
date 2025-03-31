@@ -11,6 +11,18 @@
     <RegexRule v-for="(rule, index) in rules" :key="index" :rule="rule" :language="currentLanguage" />
 </div>
 
+<footer>
+    <div class="container mx-auto text-center text-white py-4">
+        <p>Author:</p>
+        <p>Jussif Abdel-Rahman</p>
+    </div>
+    <div class="container mx-auto text-center text-white py-4">
+        <p>Credits:</p>
+        <p> https://regexone.com/</p>
+        <p>https://en.wikipedia.org/wiki/Regular_expression</p>
+    </div>
+</footer>
+
 </template>
 
 <script>
