@@ -1,7 +1,7 @@
 <template>
-<div class="flex space-x-4">
-    <button @click="$emit('switch-language', 'de')" class="px-4 py-2 rounded">Deutsch</button>
-    <button @click="$emit('switch-language', 'en')" class="px-4 py-2 rounded">Englisch</button>
+<div class="flex space-x-4 justify-center mt-10">
+    <button @click="$emit('switch-language', 'de')" class="px-6 py-2 bg-blue-500 text-white font-semibold rounded-lg">Deutsch</button>
+    <button @click="$emit('switch-language', 'en')" class="px-6 py-2 bg-blue-500 text-white font-semibold rounded-lg">Englisch</button>
 </div>
 </template>
 
