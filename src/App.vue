@@ -3,7 +3,7 @@
     <LanguageSwitcher :currentLanguage="currentLanguage" @switch-language="switchLanguage" class="mb-8" />
 </div>
 
-<h1 class="text-3xl font-bold mb-6">
+<h1 class="text-3xl font-bold mb-6 text-white">
     {{ currentLanguage === 'de' ? '10 Regeln für Regular Expressions' : '10 Rules for Regular Expressions' }}
 </h1>
 
@@ -50,7 +50,7 @@ export default {
                     en: 'Dot (any character)'
                 },
                 description: {
-                    de: 'Der Punkt . steht für ein beliebiges einzelnes Zeichen (außer Zeilenumbruch).',
+                    de: 'Der Punkt . steht für ein beliebiges einzelnes Zeichen (ausser Zeilenumbruch).',
                     en: 'The dot . matches any single character (except newline).'
                 },
                 example: {
@@ -82,7 +82,7 @@ export default {
                     en: 'Negated character classes'
                 },
                 description: {
-                    de: 'Ein ^ innerhalb von [] verneint die Zeichenklasse - es matcht alles außer den angegebenen Zeichen.',
+                    de: 'Ein ^ innerhalb von [] verneint die Zeichenklasse - es matcht alles ausser den angegebenen Zeichen.',
                     en: 'A ^ inside [] negates the character class - matches anything except the specified characters.'
                 },
                 example: {
